@@ -1,0 +1,58 @@
+/* Reset some default styles */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+/* Header styles */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+/* index content styles */
+index {
+    padding: 2rem;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Optional styles for authentication section */
+#authenticationSection {
+    margin-bottom: 20px;
+}
+
+/* Optional styles for user information display */
+#userInformation {
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #f0f0f0;
+    display: inline-block;
+}
+
+#userInformation p {
+    margin: 0;
+}
+/* Add more styles as needed */
+body.loading {
+    cursor: wait;
+}
+.hidden {
+    display: none;
+}
